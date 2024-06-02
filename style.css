@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center; /* ヘッダーのスタイル */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* メインコンテンツのスタイル */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.novel-content {
+    margin-top: 40px;
+    white-space: pre-wrap; /* 改行を反映させるためのスタイル */
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px; /* ページネーションのスタイル */
+}
+
+.pagination button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.pagination button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff; /* フッターのスタイル */
+}
